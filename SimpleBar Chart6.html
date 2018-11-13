@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="utf-8">
+<head>
+    <title>Simple d3 Bar Chart</title>
+    <script src="https://d3js.org/d3.v3.min.js">         
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js">
+    </script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/0.4.1/html2canvas.min.js">     
+    </script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="jscript.js"></script>
+</head>
+<body onload="init();" id="kontainer">
+   <a id="test"></a>
+   <div id="theDiv">
+     Title
+   </div>
+   <div id="subtitle">
+     Subtitle      
+   </div>
+   <div id="customTitle">
+     <p>
+       
+     </p>
+     <input type="text" oninput="showWhatWeTyped();" id="inputField" 
+      placeholder="Input Title"/>
+      <p>
+   
+      </p>
+      <input type="text" oninput="showWhatWeTyped();" id="subField" 
+       placeholder="Input Subtitle"/>
+   </div>
+    <p>
+    </p>
+   
+  <div class="contain">
+    <div class="chart" id="special">
+      'Graph goes here'
+    </div>
+  </div>
+  <button class="vis" id="firstB" onclick="addVals();">
+    (re)Set Values
+  </button>
+  <button class="vis" id="secondB" onclick="addLabs();">
+    (re)Set Labels
+  </button>
+  <button id="thirdB" onclick= "hideFunc();">
+    Hide Controls
+  </button>
+  <div class="contain2">
+    <div id="specialLabel" class="labels">
+    +Add Labels
+    </div>
+  </div>
+  <input type="range" id="zoomer" min="1" max="2" step=".01" value="1" onclick="zoomSet();">
+    <button id="snap" onclick="takeScreenShot()">
+      Save Pic
+    </button>
+</body>
+</html>

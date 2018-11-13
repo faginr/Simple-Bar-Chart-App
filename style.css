@@ -1,0 +1,98 @@
+.chart div{
+  font: 10.5px sans-serif;
+  background-color: royalblue;
+  text-align: right;
+  padding: 5px;
+  margin: 10px;
+  color: black;
+  box-shadow: 1px 1px 1px darkkhaki;
+}
+
+.chart div:hover {
+  background-color:#cc0000;
+}
+ .contain { 
+    border-radius: 3px;
+  box-shadow: 2px 2px 2px lightgrey;
+  float:left;
+  background-color: #e4ede1;
+}
+
+.contain2 {
+      border-radius: 3px;
+  float:left;
+  
+  
+}
+
+.vis {
+  position: fixed;
+  bottom:0; 
+  left:0;
+  margin:20px;
+}
+
+#secondB {
+  left: 140px;
+}
+
+#thirdB {
+  position: fixed;
+  bottom:0; 
+  right: 0px;
+  margin:20px;
+}
+
+.labels {
+  font: 10.5px sans-serif;
+  margin: 5px;
+  padding: 3px;
+  color: black;
+  line-height: 32px;
+   }
+
+#customTitle {
+  position: relative;
+  top:-40px; 
+  right:0px;
+  margin:5px;
+  float:right
+}
+
+#theDiv {
+  font-family:helvetica;
+  font-size: 60px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  padding-top: 5px;
+  background: linear-gradient(to right, whitesmoke, white);
+  
+}
+
+#zoomer {
+  position: fixed;
+  bottom:45px; 
+  right:15px;
+  margin:5px;
+}
+
+h3 {
+  position: fixed;
+  bottom: 150px;
+}
+
+#subtitle {
+  margin-bottom: 10px;
+}
+
+canvas {
+  max-width:100%;
+  max-height:100%;
+}
+
+#snap {
+  position: fixed;
+  bottom:0; 
+  right: 100px;
+  margin:20px;
+}
